@@ -1,5 +1,5 @@
 FROM python:3.11.10-slim
-LABEL maintainer=""
+LABEL maintainer="Pete"
 
 ARG COMMIT="unknown"
 ARG REPO="unknown"
@@ -13,10 +13,10 @@ ENV COMMIT_SHA=${COMMIT}
 ENV COMMIT_BRANCH=${BRANCH}
 ENV COMMIT_REPO=${REPO}
 
-WORKDIR /opt/code
+WORKDIR /app
 
 COPY requirements.txt ./
 RUN pip install -r requirements.txt
 COPY . .
 
-ENTRYPOINT [ "python", "-u", "main.py" ]
+ENTRYPOINT [ "python", "-u", "app.py" ]
