@@ -7,7 +7,6 @@ Citi POC - InstructLab fine-tuning
 Background and justification can be found [here](https://docs.google.com/document/d/1DkU8inHNn_OyC5YbcQcdmt0v361lhOblPS9usdJjQ3I/edit?tab=t.0).
 
 ## Prerequisites
-
 To set up a new Conda environment, run the following commands:
 
 ```zsh
@@ -26,11 +25,11 @@ The following are files and folders in the repository:
 
 * `requirements.txt`: This file contains python dependencies.
 * `util/`: This folder contains some utility modules.
-* `assets/`: This folder contains data files including model inputs and outputs.
+* `assets/inputs`: This folder should contain the input pdfs. 
+* `assets/outputs`: This is where the processed documents will land. 
 
 ### Running from your local python environment
 
-Then to run the pipeline
 ```console
-python app.py
+python convert_pdf.py
 ```
