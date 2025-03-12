@@ -1,56 +1,172 @@
-version: 3
-domain: <The knowledge domain which is used in prompts to the teacher model during synthetic data generation. The domain should be brief such as the title to a textbook chapter or section.>
-created_by: <The GitHub username of the contributor.>
+version: 1
+domain: Bank account manual
+created_by: pdavis327
 seed_examples:
   - context: |
-        <Context from the document associated with this set of sample q&a pairs.>
+      ## Arbitration
+      
+      ## Covered Disputes
+
+      You or we may arbitrate any claims, dispute or controversy between you and us arising out of or related to your account(s), a previous related account or our relationship (called "Disputes").
+
+      If arbitration is chosen by any party, neither you nor we will have the right to litigate that Dispute in court or have a jury trial on that Dispute.
+
+      Except as stated below, all Disputes are subject to arbitration no matter what legal theory they are based on or what remedy (damages, or injunctive or declaratory relief) they seek, including claims based on contract, tort (including intentional tort), fraud, agency, your or our negligence, statutory or regulatory provisions, or any other sources of law; claims made as counterclaims, cross-claims, third party claims, interpleaders or otherwise; claims made regarding past, present or future conduct; and claims made independently or with other claims. Disputes include any unresolved claims concerning any services relating to such account, including without limitation, safe deposit box services, wire transfer services, and use of a Citibank® Banking Card or Citibank® Banking Card displaying the MasterCard® Brand Mark. This also includes claims made by or against anyone connected with us or you or claiming through us or you, or by someone making a claim through us or you, such as a joint account owner, account beneficiary, employee, agent, representative, predecessor or successor, heir, assignee, trustee in bankruptcy, or an affiliated/parent/subsidiary company. A party who initiates a proceeding in court may elect arbitration with respect to any dispute advanced in that proceeding by any other party. Disputes include claims made as part of a class action or other representative action, it being expressly understood and agreed to that the arbitration of such claims must proceed on an individual (non-class, non-representative) basis. Disputes also include claims relating to the enforceability or interpretation of any of these arbitration provisions. Any questions about whether Disputes are subject to arbitration shall be resolved by interpreting this arbitration provision in the broadest way the law will allow it to be enforced.
     questions_and_answers:
       - question: |
-           <A question used for synthetic data generation. Based upon the previous context.>
+          What are the legal implications of choosing arbitration, and how does it affect the right to litigate disputes?
         answer: |
-           <The desired response for the question. Based upon the previous context.>
+          If arbitration is chosen by any party, neither you nor we will have the right to litigate that Dispute in court or have a jury trial on that Dispute.
       - question: |
+          Who can elect arbitration with respect to any dispute?
         answer: |
+          A party that starts a court case can choose to move any counterclaims made by the other party to arbitration.
       - question: |
+          What kinds of claims and disputes are subject to this arbitration clause?
         answer: |
+          The arbitration clause covers any disputes or claims related to your account or our relationship, including issues with services like safe deposit boxes, wire transfers, or banking cards.
   - context: |
+      ## Electronic Banking
+
+      The following terms apply to a) Electronic Fund Transfers (EFT) (e.g., consumer ATM transactions, point-of-sale (POS) transactions, domestic Citibank Global transfers, Zelle® transfers, ACH transfers and Instant Payments) and b) where indicated International Citibank® Global Transfers and consumer international wire transfers designated as remittance transfers under federal law. Any authorized signer on an account may apply for these services on behalf of all authorized signers. Some EFT services are subject to separate terms and conditions (e.g., Citibank Global Transfers and Zelle® transfers) which are provided to you when enrolling in a specific service.
+
+      We shall comply with the requirements of, and you shall be entitled to, the remedies for error resolution for an EFT required in accordance with the federal Electronic Fund Transfer Act, 15 USC 1693 or alternatively, the remedies for error resolution for a remittance transfer in accordance with the Dodd-Frank Wall Street Reform and Consumer Protection Act, 15 USC 1693o-1 and regulations promulgated thereunder. You may be entitled to additional rights and remedies - including different limitations of liability for unauthorized transactions - according to the governing state law of your account. For more information, refer to 'Lost or Stolen Citibank® Banking Cards or Other Access Devices and Unauthorized Electronic Transactions' in this section of the Manual.
+
+      ## General
+
+      Please note that each withdrawal, transfer, purchase and cash advance is limited by the amount available in your account or available to you via an overdraft protection program such as Checking Plus®, Checking Plus® (variable rate) line of credit or Safety Check. Some Network ATM operators may impose lower limits on cash withdrawals.
+
+      ## Limitations on Transfers and Withdrawals and Right to Suspend or Discontinue Services
+
+      At any time we may change the transfer and withdrawal limits that apply when you use an Access Device, and at any time we may suspend or discontinue operation of certain electronic banking services based upon security issues and other factors.
+
+      ## ATM Terminal Transactions
+
+      You can get a record detailing the transactions you perform at Proprietary Citibank ATMs and Network ATMs. For deposits and payments made at Proprietary Citibank ATMs, your deposits and payments are accepted subject to bank verification.
+
+      ## Termination of Electronic Banking Services
+
+      If you wish to terminate any electronic banking services or no longer wish to use your Citibank® Banking Card, call us at CitiPhone Banking® at 1-888-CITIBANK or write us at P.O. Box 769004, San Antonio, TX 78245-9989.
+
+      ## Access Devices
+
+      Generally, you will receive your Citibank® Banking Card when you open your account. If you do not select your Personal Identification Number (PIN) at account opening, you will receive the PIN in a separate mailing. Your PIN is required for all Citibank® Banking Card transactions at Proprietary Citibank ATMs, at Network ATMs or for PIN based POS purchase transactions. You agree to keep your PIN confidential. No bank employee knows your PIN or will ever ask for it. For your protection, we encourage you to periodically change your PIN. You can change your PIN at any time:
+
+      - · At a Proprietary Citibank ATM;
+      - · At any Citibank branch in the United States;
+      - · On Citibank® Online or Citi Mobile.
     questions_and_answers:
       - question: |
+          Where can I change my pin?
         answer: |
+          You can change your pin at a Proprietary Citibank ATM, a Citibank branch located in the United States, or on the Citibank Mobile app or website.
       - question: |
+          Are withdrawals or transfers limited in the amount you can send?
         answer: |
+          Every transfer, withdrawal, cash advance and purchase is limited based on the amount of funds available in your account. 
       - question: |
+          Where to call for when one needs to terminate any e-banking services or cards?
         answer: |
+          To terminate any electronic banking services or to cancel the use of Citibank Banking Card, you can call 
+          at CitiPhone Banking® at 1-888-CITIBANK or write to them at P.O. Box 769004, San Antonio, TX 78245-9989.
   - context: |
+      We will provide a periodic account statement to you showing all activity for the statement period, all transactions made with your Citibank® Banking Card, all transfers you authorize in advance, and other account information for the statement period. Your periodic statement will include a summary of your linked account balances and an itemized listing of your transactions by date, including information about checks presented against your account, and other notices about your linked accounts. We use postage-paid ordinary postal-mail to send you statements or notices to the postal mail address reflected in our records for the account.
+
+      Regardless of the number of account owners, we only mail to one owner per account. Notification given to any one account owner is considered notification to all account owners and is considered delivered to you on the date we first place the statement or notice in the U.S. mail or the date that the email notifying you that your statement is available on Citibank Online is first sent, regardless of whether or not you receive it.
+
+      If two consecutive statements and/or notices are returned to us for any reason, you agree that we may hold subsequent notices and statements until we receive forwarding information from you. Statements and notices held for you will be deemed delivered to you on the date that they are prepared (for held statements), mailed (for returned statements) or otherwise made available to you. At our discretion, we may destroy mail that is returned to us as determined to be undeliverable. If you have a checking, Checking Plus®, or Checking Plus® (variable rate) line of credit account, you will receive a statement each month and that statement will include information regarding all of your other linked accounts.
+
+      You can arrange to receive separate statements for your linked Citibank accounts by calling CitiPhone Banking® (see the 'Contact Us' section of this Manual for telephone numbers).
+
+      Instead of receiving a paper statement through ordinary postal mail, any signer on an account may elect to enroll in our paperless statement service when you are registered on Citibank Online. If you elect to use the paperless statement service, we will notify you via email of the availability of your statement on Citibank Online. The terms and conditions for the paperless statement service are subject to a separate agreement which you will accept when enrolling in the service and can view at any time on Citibank Online.
     questions_and_answers:
       - question:
+          How many account owners receive mailed correspondence for an account?
         answer: |
+          Regardless of the number of account owners, mail is sent to only one owner per account.
       - question: |
+          Can I choose to receive my account statement electronically instead of by mail?
         answer: |
+          Yes, any signer on an account can enroll in the paperless statement service through Citibank Online. If you opt for paperless statements, you will receive an email notification when your statement is available on Citibank Online.
       - question: |
+          How can I get a statement for each of my Citi linked accounts?
         answer: |
+          You can arrange to have a statement sent for each account by contacting CitiPhone Banking.
   - context: |
+      ## Governing Law
+
+      Accounts and services are governed by federal laws and regulations and to the extent not preempted by federal law or otherwise inapplicable, by the 'governing state law' determined as follows for accounts opened or services signed up for on or after February 24, 2012: If you open your account or sign up for a service in a branch, by the law of the state where the branch is located, regardless of the state where you reside, or, if you open your account or sign up for a service remotely (for example by Citibank® Online or CitiPhone Banking®), by the law of the state designated in the following chart unless a specific agreement or statute requires otherwise. In either case, state conflict of law provisions will not apply.
+
+      ## Governing State Law
+
+      | If you open your account, or sign up for a service remotely  (i.e., Citibank® Online, CitiPhone Banking®) and reside here . . .   | Then the governing state law will be . . .   |
+      |-----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
+      | California                                                                                                                        | California                                   |
+      | Connecticut                                                                                                                       | Connecticut                                  |
+      | Florida                                                                                                                           | Florida                                      |
+      | Illinois                                                                                                                          | Illinois                                     |
+      | Maryland                                                                                                                          | Maryland                                     |
+      | Nevada                                                                                                                            | Nevada                                       |
+      | New Jersey                                                                                                                        | New Jersey                                   |
+      | New York                                                                                                                          | New York                                     |
+      | Texas                                                                                                                             | Texas                                        |
+      | Virginia                                                                                                                          | Virginia                                     |
+      | Washington, D.C.                                                                                                                  | Washington, D.C.                             |
+      | Any other U.S. state, territory or possession                                                                                     | South Dakota                                 |
+
+      If you open your account remotely, your Home Branch will generally be the branch where your first account is opened or subsequently transferred. Usually, once your Home Branch is established, additional accounts you open can be assigned to the same Home Branch regardless of the governing law applicable to the additional accounts. If you open your account in a branch, your Home Branch will be the branch where you opened the account. If you notify us of a change of address after your account is opened, it will not affect the Home Branch where your accounts are maintained and it will not affect the governing state law applicable to your existing accounts.
     questions_and_answers:
       - question: |
+          If I live in Texas, what state governs my accounts and Services?
         answer: |
+          Texas state law will govern your account service.
       - question: |
+          If I open a Citibank account while residing in a U.S. state or territory not specifically listed, which state's law will govern my account?
         answer: |
+          If you reside in any U.S. state, territory, or possession not explicitly listed, your account will be governed by South Dakota law.
+      - question: |
+          If I open an account in a state that is not California, Connecticut, Florida, Illinois, Maryland, Nevada, New Jersey, New York, Texas, Virginia, Washington, D.C., what will be my governing state law?
+        answer: |
+          The governing state law will be South Dakota for your account if you do not open an account in one of those states.
   - context: |
+      ## Account Transactions
+
+      ## What This Section Covers
+
+      This section governs transaction activity in the following Citibank accounts: all types of checking, savings and money market accounts. It does not apply to certificate of deposit accounts. Please note: Your ability to perform or request certain account transactions on a new account, such as wire transfers, may be delayed for one or more business days after account opening.
+      
+      ## Checkbooks and Checks
+
+      When you open a checking or money market account with a check writing feature, you can order personalized checks through us. We will automatically deduct the cost from your account balance after your order is processed. You are responsible for verifying the accuracy of all information shown on your checks. If you find an error, you must notify us immediately.
+      If you choose to have your checks printed by another vendor, the form, encoding and format of the checks must follow our check specification requirements and be approved by us in advance. If you do not purchase your checks through us, we may charge a fee for each check that rejects during processing due to poor print quality, or if it fails to meet our specifications. You agree not to issue checks with features or marks that obscure, alter or impair information on the front or back of a check or that otherwise prevents us or another bank from capturing such information during automated check processing.
+      You agree to safeguard your blank and cancelled checks, and to take reasonable steps to prevent their unauthorized use. If your checks are lost or stolen, you agree to notify us immediately.
+      For security reasons, we reserve the right to close your account and transfer the balance to a new account. If we do, all checks written but not yet paid may be returned to payees as 'Account Closed' or 'Refer to Maker.' You will be responsible for issuing any replacement checks.
+      
+      ## Deposits
+
+      You can make deposits:
+      - · To qualifying accounts linked to your Citibank® Banking Card 1  at any Proprietary Citibank ATM in the U.S., 24 hours a day, 7 days a week. Simply follow the directions on the ATM screen to insert your check or cash deposit in the appropriate slot. Some instruments such as some money orders or foreign checks cannot be accepted by the ATM terminal and must be deposited with a branch representative. When your transaction is completed, you will receive a transaction record via email or print (which ever option you select), that will provide an image of the check(s) or a breakdown of the cash accepted.
     questions_and_answers:
       - question: |
+          How can I order checks for my account?
         answer: |
+          You can order personalized checks through Citibank, and the cost will be deducted from your account. If you use an outside vendor, the checks must meet Citibank’s specifications.
       - question: |
+          Where can I make deposits?
         answer: |
+          You can deposit cash and checks at Citibank ATMs in the U.S. or with a branch representative, but some items like foreign checks may need to be deposited in person. 
       - question: |
+          What should I do if I lose my checks?
         answer: |
+          You agree to safeguard your checks, and to prevent their unauthorized use. If your checks are lost or stolen, you should notify us immediately. We reserve the right to close your account and transfer the balance to a new account. If we do, all checks written but not yet paid may be returned to payees as 'Account Closed' or 'Refer to Maker.'
 document_outline: |
-  <A brief summary of the document.>
+  This manual, a comprehensive document detailing terms, conditions, and procedures for consumer deposit accounts, is essential for ensuring compliance and providing accurate customer information.It defines employees' and managers' responsibilities, emphasizing ethical decision-making, accountability, and a strict prohibition of retaliation. The document details business practices, including fair dealings, anti-bribery, anti-money laundering, insider trading policies, and conflict of interest guidelines. It highlights the importance of protecting company and client assets, maintaining information security, privacy, and accurate record-keeping. Workplace conduct standards focus on diversity, inclusion, harassment prevention, and ensuring a safe and respectful environment. Citi’s commitment to corporate social responsibility includes sustainability efforts, human rights protections, and guidelines for political activities. Finally, it provides clear reporting mechanisms, an ethics hotline, escalation procedures, and disciplinary measures to enforce compliance.
 document:
-  repo: https://github.com/<username>/<repo>.git
-  commit: <full commit SHA>
+  repo: https://github.com/pdavis327/rh-citi-poc
+  commit: e06264b
   patterns:
-    - <FILENAME>.md
-    - <FILENAME>.pdf
-    - "*.md"
-    - "*.pdf"
-    - "<directory>/*.md"
+    - assets/outputs/ipbclman_en.md
+    # - <FILENAME>.pdf
+    # - "*.md"
+    # - "*.pdf"
+    # - "<directory>/*.md"
