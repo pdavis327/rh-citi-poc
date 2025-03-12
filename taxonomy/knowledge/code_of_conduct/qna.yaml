@@ -183,4 +183,4 @@ document:
   repo: https://github.com/pdavis327/rh-citi-poc
   commit: a124c5e986dc5e4de7bdbb1cc05498289d885d4f
   patterns:
-    - assets/outputs/codeconduct_en_2023_md_to.pdf
+    - assets/inputs/ipbclman_en.pdf
