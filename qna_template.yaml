@@ -1,0 +1,86 @@
+version: 3
+domain: time_travel
+created_by: 
+seed_examples:
+  - context: |
+      
+    questions_and_answers:
+      - question: |
+          
+        answer: |
+          
+      - question: |
+          
+        answer: |
+          
+      - question: |
+          
+        answer: |
+          
+  - context: |
+      
+    questions_and_answers:
+      - question: |
+          
+        answer: |
+          
+      - question: |
+          
+        answer: |
+          
+      - question: |
+          
+        answer: |
+          
+  - context: |
+      
+    questions_and_answers:
+      - question: |
+          
+        answer: |
+          
+      - question: |
+          
+        answer: |
+          
+      - question: |
+          
+        answer: |
+          
+  - context: |
+      
+    questions_and_answers:
+      - question: |
+          
+        answer: |
+          
+      - question: |
+          
+        answer: |
+          
+      - question: |
+          
+        answer: |
+          
+  - context: |
+      
+    questions_and_answers:
+      - question: |
+          
+        answer: |
+          
+      - question: |
+          
+        answer: |
+          
+      - question: |
+          
+        answer: |
+          
+document_outline: |
+  Details and repair costs on a DeLorean DMC-12 car.
+document:
+  repo: https://github.com/gshipley/fluxmd.git
+  commit: 3915cc7cc38c7eda46feaa01d44872e11e1334a8
+  patterns:
+    - flux.md
