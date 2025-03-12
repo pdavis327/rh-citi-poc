@@ -339,7 +339,11 @@ Escalating Concerns Anonymity and Confidentiality Prohibition of Workplace Retal
 
 Acting ethically is not only the right thing to do but also the right way to do business and best serve our clients, colleagues, shareholders, and communities.
 
-Code, including threats or acts of physical violence, you must promptly escalate your concerns to any of the following:
+If you have any question as to whether a particular situation requires escalation, you should always choose to escalate.
+
+We are all required to report concerns about conduct or situations that may put our company or our customers at risk. The early identification and resolution of issues is critical to maintaining the trust of our clients, business colleagues, employees, and stakeholders.
+
+If you have reason to believe that any Citi employee, or anyone working on Citi's behalf, may have engaged in misconduct, which includes violations or potential violations of law, regulation, rule, or breaches of policy, standard, procedure, or thisCode, including threats or acts of physical violence, you must promptly escalate your concerns to any of the following:
 
 - · Your manager or another member of management
 - · Your Human Resources (HR), Employee Relations, or Labor Relations representative
@@ -351,12 +355,6 @@ Code, including threats or acts of physical violence, you must promptly escalate
 Just as you will be held accountable for your own actions, you may also be held accountable for a failure to escalate the actions of others if you knew that they were in violation of law, regulation, or rule, or in breach of policy, standard, procedure, or this Code.
 
 While we encourage you to raise issues to Citi first, we appreciate that this is not always possible.  Nothing in the Code prohibits you from communicating with government, regulatory, or self-regulatory agencies about possible concerns, or otherwise providing information to, filing a complaint with, or participating in investigations or proceedings with those agencies.  Nor does the Code require you to notify Citi of any such communications.
-
-If you have any question as to whether a particular situation requires escalation, you should always choose to escalate.
-
-We are all required to report concerns about conduct or situations that may put our company or our customers at risk. The early identification and resolution of issues is critical to maintaining the trust of our clients, business colleagues, employees, and stakeholders.
-
-If you have reason to believe that any Citi employee, or anyone working on Citi's behalf, may have engaged in misconduct, which includes violations or potential violations of law, regulation, rule, or breaches of policy, standard, procedure, or this
 
 <!-- image -->
 
