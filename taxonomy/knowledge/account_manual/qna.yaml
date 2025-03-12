@@ -4,7 +4,7 @@ created_by: pdavis327
 seed_examples:
   - context: |
       ## Arbitration
-      
+
       ## Covered Disputes
 
       You or we may arbitrate any claims, dispute or controversy between you and us arising out of or related to your account(s), a previous related account or our relationship (called "Disputes").
@@ -63,11 +63,11 @@ seed_examples:
       - question: |
           Are withdrawals or transfers limited in the amount you can send?
         answer: |
-          Every transfer, withdrawal, cash advance and purchase is limited based on the amount of funds available in your account. 
+          Every transfer, withdrawal, cash advance and purchase is limited based on the amount of funds available in your account.
       - question: |
           Where to call for when one needs to terminate any e-banking services or cards?
         answer: |
-          To terminate any electronic banking services or to cancel the use of Citibank Banking Card, you can call 
+          To terminate any electronic banking services or to cancel the use of Citibank Banking Card, you can call
           at CitiPhone Banking® at 1-888-CITIBANK or write to them at P.O. Box 769004, San Antonio, TX 78245-9989.
   - context: |
       We will provide a periodic account statement to you showing all activity for the statement period, all transactions made with your Citibank® Banking Card, all transfers you authorize in advance, and other account information for the statement period. Your periodic statement will include a summary of your linked account balances and an itemized listing of your transactions by date, including information about checks presented against your account, and other notices about your linked accounts. We use postage-paid ordinary postal-mail to send you statements or notices to the postal mail address reflected in our records for the account.
@@ -134,14 +134,14 @@ seed_examples:
       ## What This Section Covers
 
       This section governs transaction activity in the following Citibank accounts: all types of checking, savings and money market accounts. It does not apply to certificate of deposit accounts. Please note: Your ability to perform or request certain account transactions on a new account, such as wire transfers, may be delayed for one or more business days after account opening.
-      
+
       ## Checkbooks and Checks
 
       When you open a checking or money market account with a check writing feature, you can order personalized checks through us. We will automatically deduct the cost from your account balance after your order is processed. You are responsible for verifying the accuracy of all information shown on your checks. If you find an error, you must notify us immediately.
       If you choose to have your checks printed by another vendor, the form, encoding and format of the checks must follow our check specification requirements and be approved by us in advance. If you do not purchase your checks through us, we may charge a fee for each check that rejects during processing due to poor print quality, or if it fails to meet our specifications. You agree not to issue checks with features or marks that obscure, alter or impair information on the front or back of a check or that otherwise prevents us or another bank from capturing such information during automated check processing.
       You agree to safeguard your blank and cancelled checks, and to take reasonable steps to prevent their unauthorized use. If your checks are lost or stolen, you agree to notify us immediately.
       For security reasons, we reserve the right to close your account and transfer the balance to a new account. If we do, all checks written but not yet paid may be returned to payees as 'Account Closed' or 'Refer to Maker.' You will be responsible for issuing any replacement checks.
-      
+
       ## Deposits
 
       You can make deposits:
@@ -154,19 +154,15 @@ seed_examples:
       - question: |
           Where can I make deposits?
         answer: |
-          You can deposit cash and checks at Citibank ATMs in the U.S. or with a branch representative, but some items like foreign checks may need to be deposited in person. 
+          You can deposit cash and checks at Citibank ATMs in the U.S. or with a branch representative, but some items like foreign checks may need to be deposited in person.
       - question: |
           What should I do if I lose my checks?
         answer: |
           You agree to safeguard your checks, and to prevent their unauthorized use. If your checks are lost or stolen, you should notify us immediately. We reserve the right to close your account and transfer the balance to a new account. If we do, all checks written but not yet paid may be returned to payees as 'Account Closed' or 'Refer to Maker.'
 document_outline: |
-  This manual, a comprehensive document detailing terms, conditions, and procedures for consumer deposit accounts, is essential for ensuring compliance and providing accurate customer information.It defines employees' and managers' responsibilities, emphasizing ethical decision-making, accountability, and a strict prohibition of retaliation. The document details business practices, including fair dealings, anti-bribery, anti-money laundering, insider trading policies, and conflict of interest guidelines. It highlights the importance of protecting company and client assets, maintaining information security, privacy, and accurate record-keeping. Workplace conduct standards focus on diversity, inclusion, harassment prevention, and ensuring a safe and respectful environment. Citi’s commitment to corporate social responsibility includes sustainability efforts, human rights protections, and guidelines for political activities. Finally, it provides clear reporting mechanisms, an ethics hotline, escalation procedures, and disciplinary measures to enforce compliance.
+  This manual is a comprehensive document detailing terms, conditions, and procedures for consumer deposit accounts.
 document:
   repo: https://github.com/pdavis327/rh-citi-poc
-  commit: e06264b
+  commit: a124c5e986dc5e4de7bdbb1cc05498289d885d4f
   patterns:
     - assets/outputs/ipbclman_en.md
-    # - <FILENAME>.pdf
-    # - "*.md"
-    # - "*.pdf"
-    # - "<directory>/*.md"
