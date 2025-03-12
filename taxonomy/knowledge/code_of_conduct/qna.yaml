@@ -1,86 +1,186 @@
 version: 3
-domain: time_travel
-created_by: 
+domain: code of conduct
+created_by: pdavis327
 seed_examples:
   - context: |
-      
+      ## Do Your Part
+
+      Think before you act.  Use good judgment.  Ask for help when the answer is not clear. Promptly speak up if you see or suspect misconduct - speaking up is not always easy, but it's always the right thing to do.
+
+      To protect Citi's reputation for integrity, you must:
+      - · Understand: Understand and comply with the laws, regulations, and Citi policies, standards, and procedures that govern your business, region, and/or function.
+      - · Uphold Our Values: Act in accordance with the values and principles expressed in our Mission and Value Proposition, our Leadership Principles, and this Code and apply them every day, to everything you do, and in every decision you make.
+      - · Be Honest: Conduct business in a manner that is fair, transparent, prudent, and dependable. This includes a commitment to honesty in our dealings and communications with our clients, suppliers, competitors, and each other.
+      - · Be Accountable: Take responsibility for your decisions and actions and hold others accountable.
+      - · Be Respectful: Treat others with respect and take immediate action when you observe any inappropriate conduct towards clients, colleagues, or third parties.
+      - · Speak Up: Immediately report unacceptable conduct.
+      - · Cooperate: Fully cooperate with any investigation and be truthful and forthcoming during such investigations.
+
+      ## Managers' Responsibilities
+
+      We expect all employees to be leaders, but recognize that our managers in particular are role models who must lead by example and inspire their teams to live our values.
+
+      As role models, managers must:
+      - · Reinforce: Regularly reinforce the importance of understanding and following our Mission and Value Proposition, Leadership Principles, and this Code, and the policies and procedures that apply to their team members' daily job responsibilities.
+      - · Set Expectations: Ensure that employees understand that business results are never more important than acting with integrity. Understand the risks inherent in their team members' work, and play an active role in assuring the quality of that work.
+      - · Encourage: Encourage employees to speak up and raise concerns, especially about potential legal or ethical issues, and foster a work environment where they feel comfortable doing so.
     questions_and_answers:
       - question: |
-          
+          What should you do if you see or suspect that someone is engaging in misconduct?
         answer: |
-          
+          If you see suspicious behavious your should quickly speak up.
       - question: |
-          
+          What is the role of managers in upholding Citi's reputation for integrity?
         answer: |
-          
+          Managers must reinforce that employees follow the established policies and procedures, set clear expectations, and encourage employees to speak up.
       - question: |
-          
+          Should employee cooperate with investigations?
         answer: |
-          
+          To protect the companies reputation for integrity, employees should fully cooperate with investigations and be honest in all questioning.
   - context: |
-      
+      ## Escalating Concerns
+
+      Acting ethically is not only the right thing to do but also the right way to do business and best serve our clients, colleagues, shareholders, and communities.
+
+      If you have any question as to whether a particular situation requires escalation, you should always choose to escalate.
+
+      We are all required to report concerns about conduct or situations that may put our company or our customers at risk. The early identification and resolution of issues is critical to maintaining the trust of our clients, business colleagues, employees, and stakeholders.
+
+      If you have reason to believe that any Citi employee, or anyone working on Citi's behalf, may have engaged in misconduct, which includes violations or potential violations of law, regulation, rule, or breaches of policy, standard, procedure, or thisCode, including threats or acts of physical violence, you must promptly escalate your concerns to any of the following:
+
+      - · Your manager or another member of management
+      - · Your Human Resources (HR), Employee Relations, or Labor Relations representative
+      - · Citi Security and Investigative Services (CSIS)
+      - · Your Independent Compliance Risk Management (ICRM) Officer
+      - · Your business unit or function's internal legal counsel
+      - · The Citi Ethics Office
+
+      Just as you will be held accountable for your own actions, you may also be held accountable for a failure to escalate the actions of others if you knew that they were in violation of law, regulation, or rule, or in breach of policy, standard, procedure, or this Code.
+
+      While we encourage you to raise issues to Citi first, we appreciate that this is not always possible.  Nothing in the Code prohibits you from communicating with government, regulatory, or self-regulatory agencies about possible concerns, or otherwise providing information to, filing a complaint with, or participating in investigations or proceedings with those agencies.  Nor does the Code require you to notify Citi of any such communications.
     questions_and_answers:
       - question: |
-          
+          What should you do if you think a situation requires escelation?
         answer: |
-          
+          You should always escalate a situation if you think it is necessary.
       - question: |
-          
+          Who can you escalate a situation to if you believe someone at Citi has engaged in misconduct?
         answer: |
-          
+          Employees can escalate to their manager, HR, security, ICRM Officers, business units, or the Citi Ethics Offics
       - question: |
-          
+          Can employees be held accountable for not escalating a situation?
         answer: |
-          
+          Employees can also be held responisble for misconduct if they choose not to escalate it.
   - context: |
-      
+      ## Harassment can be:
+
+      - · What we say or write to another colleague, using Citi systems or on social media, including unwelcome jokes, derogatory or crude comments, teasing, bullying, or using threatening or abusive language.
+      - · What we do , whether obvious or subtle, including unwelcome touching or sexual advances, requests for sexual favors, or other verbal or nonverbal behavior or physical contact that unreasonably interferes with work performance, or creates an intimidating, hostile, or offensive work environment.
+      - · What we display , such as placing photos or materials that others may consider discriminatory, offensive, defamatory, pornographic, or sexually suggestive in the work environment.
+
+      Harassment is strictly prohibited whether between members of the same or opposite gender, and whether committed in or outside of Citi locations, including employee social events.
+
+      ## Fostering a Respectful Environment
+
+      We achieve our best results in an environment of mutual respect, professionalism, and inclusiveness. We do not tolerate discrimination, harassment, retaliation, or intimidation of any kind that breaches our policies or is unlawful, whether committed by or against a manager, co-worker, client, supplier, or visitor and whether it occurs while at work, at work-related events, or outside of work.
+      We believe that our employees are entitled to a safe and healthy working environment: one in which personal talent and merit are recognized, diversity is valued, privacy is respected, and employees are supported as they balance professional and personal life.
+
+      To promote a respectful work environment, you must:
+      - · Recognize that every role within Citi is important, as are the people who occupy those roles.
+      - · Use care in your interactions and never use behavior that is harassing, threatening, bullying, retaliatory, or abusive.
+      - · Respect the personal beliefs, cultures, identity, and values of every individual. Listen and be respectful of different backgrounds and points of view.
     questions_and_answers:
       - question: |
-          
+          What is considered harassment at work?
         answer: |
-          
+          Harassment includes things like unwelcome jokes, rude comments, bullying, threats, or offensive pictures. It can also be unwanted touching, sexual advances, or anything that creates a hostile or uncomfortable work environment.
       - question: |
-          
+          Does harassment only happen in the office?
         answer: |
-          
+          No. Harassment can happen anywhere, including social events, online, or on social media if it involves colleagues or impacts the workplace.
       - question: |
-          
+          What should I do if I feel harassed at work?
         answer: |
-          
+          Report it to your manager, HR, or any designated company representative. You should also document what happened, including dates and details.
   - context: |
-      
+      To ensure fair competition and compliance with applicable laws, you must:
+      - · Avoid situations that create the potential for unlawful anti-competitive or collusive conduct.
+      - · Immediately stop any conversation in which a competitor, client, or third party with whom Citi does business, tries to engage in anti-competitive or collusive conduct and contact your manager, Legal, or ICRM.
+      - · Respect the intellectual property and confidential information of our competitors and suppliers.
+
+      ## Did You Know
+
+      Examples of anti-competitive conduct may include:
+      - · Sharing pricing, rates, terms of trading, or other strategic information with competitors.
+      - · Allocating markets, territories, or clients among competitors.
+      - · Reaching agreements with other companies about employee compensation or benefits, or unlawful agreement not to hire or solicit their employees.
+      - · Efforts to use clients or third parties to facilitate coordinated activity among competitors, or attempts by clients to use Citi to disadvantage their competitors.
+
+      ## Supplier Relationships
+
+      We interact with third parties in many ways and require that those who provide products or services to Citi promote social responsibility, ethical business practices, human rights in the workplace, and environmental sustainability.
+      We also have a responsibility to ensure that all third party activity is conducted in compliance with applicable laws, rules, regulations, policies, and Citi's expectations of conduct.
+      To make the best use of Citi's resources and supplier relationships, you must:
+      Did You Know
+
+      - · Ensure equal and fair treatment during the supplier selection process.
+      - · Provide competitive bidding opportunities to diverse suppliers, where available.
+      - · Purchase all goods and services based on price, quality, availability, terms, and service.
+      - · Not lead suppliers or clients to believe that they can inappropriately influence any procurement decisions at Citi, nor offer or suggest that any business or service may be withdrawn or awarded in return for other business.
+      - · Avoid real or perceived conflicts of interest in the procurement process. When conflicts are unavoidable or inadvertent, promptly disclose them.
+      - · Act in accordance with data privacy requirements and with appropriate judgment when responding to supplier information requests.
+      - · Advise suppliers to keep any relationship with Citi confidential, unless Citi authorizes disclosure and provides written approval.
     questions_and_answers:
       - question: |
-          
+          What is an example of anti-competitive conduct?
         answer: |
-          
+          One example of anti-competitive conduct is allocating markets, territories, or clients among competitors.
       - question: |
-          
+          What do employees need to do to ensure compliance with applicable laws?
         answer: |
-          
+          To ensure compliance with applicable laws you should avoid situations that create unlawful conduct, stop converstions with competitors, and respect IP of customers.
       - question: |
-          
+          What is Citi's responsibility when it comes to third party activity?
         answer: |
-          
+          Citi employees have the responsibility of ensuring that third party conduct is compliant with all laws, rules, and regulations, and should abide by Citi's code of conduct.
   - context: |
-      
+      ## Protecting Assets of Citi and Others
+
+      We safeguard our assets - Citi, client, or third-party property, data, and resources we are provided with to do our job, or to which we have access, - and use them only for legitimate business purposes.
+      Physical Assets include tangible things like cash, furniture, supplies, facilities, and equipment.
+      Other assets include Electronic Assets (e.g., Citi systems and services) and Citi Information .
+
+      To protect the value of Citi assets, you must:
+      - · Not steal, misuse, misappropriate, misrepresent, or disclose Citi or client assets without authorization. Such acts may constitute a crime.
+      - · Use Citi, client, supplier, and other third party assets only for approved purposes and in compliance with applicable laws, licenses, terms, and conditions.
+
+      ## Stay Alert
+
+      ## Intellectual Property
+
+      We safeguard Citi's intellectual property and respect that of others. This means you must:
+      - · Before commencing employment with Citi, disclose to your hiring manager the existence of intellectual property rights or interests you have that may relate to your employment with Citi and, where appropriate, assign such rights to Citi.
+      - · Disclose and assign to Citi all intellectual property that arises out of, or in connection or relationship with, your employment or assignment with Citi.
+      - · Respect the confidentiality of information from any former employer.  Do not share non-public information or intellectual property from your former employer(s) - or ask others to do so - without the prior consent of your former employer and unless permitted by applicable law or regulation. If you leave Citi, do not share our non-public information or intellectual property with others.
+      - · Respect the confidentiality of information and intellectual property rights of third-parties that may provide data or technology to Citi under license or subscription.  Do not share data or information provided by these third-parties - or ask others to do so - without prior consent from the provider, unless permitted by contract or applicable law.
+      - · Understand that if your relationship with Citi terminates for any reason, all rights to intellectual property generated or obtained as part of your relationship will remain the exclusive property of Citi.
     questions_and_answers:
       - question: |
-          
+          What are Citi’s assets, and how should I use them?
         answer: |
-          
+          Citi’s assets include things like money, furniture, computers, systems, and data. You should use them only for work-related tasks and never for personal use without permission.
       - question: |
-          
+          Can I take office supplies home if I need them for work?
         answer: |
-          
+          No, unless you have permission. Citi’s supplies and resources should be used only for approved business purposes.
       - question: |
-          
+          What should I do if I accidentally share confidential Citi information?
         answer: |
-          
+          Report it immediately to your manager or the appropriate security team so they can take steps to fix the issue.
 document_outline: |
-  Details and repair costs on a DeLorean DMC-12 car.
+  The Citi Code of Conduct provides a framework for ethical behavior, emphasizing trust, accountability, and integrity in all actions.
 document:
-  repo: https://github.com/gshipley/fluxmd.git
-  commit: 3915cc7cc38c7eda46feaa01d44872e11e1334a8
+  repo: https://github.com/pdavis327/rh-citi-poc
+  commit: a124c5e986dc5e4de7bdbb1cc05498289d885d4f
   patterns:
-    - flux.md
+    - assets/outputs/codeconduct_en_2023.md
